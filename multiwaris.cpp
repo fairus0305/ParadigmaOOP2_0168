@@ -31,3 +31,21 @@ public:
              << endl;
     }
 };
+
+class budi : public pekerja, public pelajar
+{
+public:
+    budi(int pUmur) : pekerja(pUmur),
+                      pelajar(pUmur),
+                      orang(pUmur)
+    {
+        cout << "budi di buat\n"
+             << endl;
+    }
+};
+
+int main()
+{
+    budi a(12);
+    return 0;
+}
