@@ -28,3 +28,15 @@ public:
     }
 };
 
+int main()
+{
+    seseorang *obyek;
+    joko a;
+    lia b;
+
+    obyek = &a;
+    obyek->pesan();
+    // a.seorang::pesan();
+    // b.seorang::pesan();
+    return 0;
+}
